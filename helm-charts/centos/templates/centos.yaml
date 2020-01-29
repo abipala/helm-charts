@@ -21,16 +21,10 @@ spec:
     spec:
       containers:
       - name: centos
-        image: centos
+        image: docker.io/library/centos:latest
         command: [ "sh", "-c", "while true; do echo $(hostname) v1 > /data/index.html; sleep 60; done" ]
         volumeMounts:
         - name: content
           mountPath: /data
-      - name: nginx
-        image: nginx
-        volumeMounts:
-          - name: content
-            mountPath: /usr/share/nginx/html
-            readOnly: true
       volumes:
       - name: content
