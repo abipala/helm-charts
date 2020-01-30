@@ -1,5 +1,9 @@
 apiVersion: v1
 appVersion: "1.0"
-description: A Helm chart for CentOS Image
+description: A Helm chart for CentOS Base Image
 name: centos
 version: 0.1.0
+maintainers:
+  - Abhilash Sebastian abhilash.sebastian1@tcs.com
+details:
+  This image is built from official rootfs tarballs provided by Redhat
