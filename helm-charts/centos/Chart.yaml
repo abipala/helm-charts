@@ -4,6 +4,7 @@ description: A Helm chart for CentOS Base Image
 name: centos
 version: 0.1.0
 maintainers:
-  - Abhilash Sebastian abhilash.sebastian1@tcs.com
+- name: Abhilash Sebastian 
+  email: abhilash.sebastian1@tcs.com
 details:
   This image is built from official rootfs tarballs provided by Redhat
