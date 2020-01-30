@@ -1,4 +1,4 @@
-apiVersion: extensions/v1beta1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: ubuntu
@@ -6,7 +6,7 @@ metadata:
 spec:
   selector:
     matchLabels:
-      demo: deployment
+      app: ubuntu
   replicas: 1
   strategy:
     rollingUpdate:
@@ -16,7 +16,7 @@ spec:
   template:
     metadata:
       labels:
-        demo: deployment
+        app: ubuntu
         version: v1
     spec:
       containers:
