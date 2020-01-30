@@ -3,9 +3,9 @@ entries:
   centos:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-01-30T18:13:39.334235555+11:00"
+    created: "2020-01-30T20:02:40.972384152+11:00"
     description: A Helm chart for CentOS Base Image
-    digest: c13a77f0c8c9465886bbf4eed96b47914afdcdd209954d7deb420710b19e7f9c
+    digest: 0a7ac762aec0cb83847cfcd709e6ddaf7394eee3428378d72303c97073e3b970
     maintainers:
     - email: abhilash.sebastian1@tcs.com
       name: Abhilash Sebastian
@@ -15,9 +15,9 @@ entries:
     version: 0.1.0
   sock-shop:
   - apiVersion: v1
-    created: "2020-01-30T18:13:39.337785043+11:00"
+    created: "2020-01-30T20:02:40.976484023+11:00"
     description: A Helm chart for Sock Shop
-    digest: eee2d0cdb6adf0e0c4646cb6d7ab3cc6db10706c1f8d75dc3f9f73d54b1629fa
+    digest: 491575bc20560ff895762d114426b090d9f1afba8bb40ffbdc9ae7d71ab4f088
     name: sock-shop
     urls:
     - sock-shop-0.2.0.tgz
@@ -25,7 +25,7 @@ entries:
   ubuntu:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-01-30T18:13:39.338090101+11:00"
+    created: "2020-01-30T20:02:40.976894781+11:00"
     description: A Helm chart for Ubuntu Base image
     digest: 30534b67a23fd1fa19f19b0378118869a3cbdb4cd8544655faa4c9be9a2eed31
     maintainers:
@@ -38,7 +38,7 @@ entries:
   wordpress:
   - apiVersion: v1
     appVersion: 5.3.2
-    created: "2020-01-30T18:13:39.340193366+11:00"
+    created: "2020-01-30T20:02:40.98004874+11:00"
     description: Web publishing platform for building blogs and websites.
     digest: 4cee16c2a08322b4d4251335ec94944477a81403bf117cb9d6c439b33945fe30
     engine: gotpl
@@ -61,4 +61,4 @@ entries:
     urls:
     - wordpress-8.1.2.tgz
     version: 8.1.2
-generated: "2020-01-30T18:13:39.333669839+11:00"
+generated: "2020-01-30T20:02:40.971618921+11:00"
