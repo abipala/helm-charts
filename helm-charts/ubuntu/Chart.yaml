@@ -3,3 +3,7 @@ appVersion: "1.0"
 description: A Helm chart for Ubuntu Base image
 name: ubuntu
 version: 0.1.0
+maintainers:
+  - Abhilash Sebastian abhilash.sebastian1@tcs.com
+details:
+  This image is built from official rootfs tarballs provided by Canonical (specifically, https://partner-images.canonical.com/core/).
