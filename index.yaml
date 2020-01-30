@@ -3,7 +3,7 @@ entries:
   centos:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-01-30T16:37:08.23955598+11:00"
+    created: "2020-01-30T17:23:20.402537728+11:00"
     description: A Helm chart for CentOS Image
     digest: bd83af846c8510785d90c19fd49e1cb6a7355ee2c36f44d5586842511cbff870
     name: centos
@@ -12,7 +12,7 @@ entries:
     version: 0.1.0
   sock-shop:
   - apiVersion: v1
-    created: "2020-01-30T16:37:08.243198436+11:00"
+    created: "2020-01-30T17:23:20.406271104+11:00"
     description: A Helm chart for Sock Shop
     digest: eee2d0cdb6adf0e0c4646cb6d7ab3cc6db10706c1f8d75dc3f9f73d54b1629fa
     name: sock-shop
@@ -22,11 +22,37 @@ entries:
   ubuntu:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-01-30T16:37:08.243461952+11:00"
+    created: "2020-01-30T17:23:20.406598871+11:00"
     description: A Helm chart for Ubuntu Base image
     digest: f42d45964908afcd76cac619f5bc4eec5812f3d7f43c7ddd49708ea9b99056e9
     name: ubuntu
     urls:
     - ubuntu-0.1.0.tgz
     version: 0.1.0
-generated: "2020-01-30T16:37:08.239021522+11:00"
+  wordpress:
+  - apiVersion: v1
+    appVersion: 5.3.2
+    created: "2020-01-30T17:23:20.409112256+11:00"
+    description: Web publishing platform for building blogs and websites.
+    digest: 4cee16c2a08322b4d4251335ec94944477a81403bf117cb9d6c439b33945fe30
+    engine: gotpl
+    home: http://www.wordpress.com/
+    icon: https://bitnami.com/assets/stacks/wordpress/img/wordpress-stack-220x234.png
+    keywords:
+    - wordpress
+    - cms
+    - blog
+    - http
+    - web
+    - application
+    - php
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: wordpress
+    sources:
+    - https://github.com/bitnami/bitnami-docker-wordpress
+    urls:
+    - wordpress-8.1.2.tgz
+    version: 8.1.2
+generated: "2020-01-30T17:23:20.402001647+11:00"
