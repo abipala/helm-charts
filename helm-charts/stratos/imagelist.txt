@@ -1,0 +1,4 @@
+stratos-console:2.6.1-d499609b2
+stratos-jetstream:2.6.1-d499609b2
+stratos-mariadb:2.6.1-d499609b2
+stratos-postflight-job:2.6.1-d499609b2
