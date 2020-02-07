@@ -3,7 +3,7 @@ entries:
   centos:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-02-07T21:13:16.141867206+11:00"
+    created: "2020-02-07T21:25:25.15019382+11:00"
     description: A Helm chart for CentOS Base Image
     digest: 0a7ac762aec0cb83847cfcd709e6ddaf7394eee3428378d72303c97073e3b970
     maintainers:
@@ -13,9 +13,19 @@ entries:
     urls:
     - centos-0.1.0.tgz
     version: 0.1.0
+  console:
+  - apiVersion: v1
+    appVersion: 2.6.1
+    created: "2020-02-07T21:25:25.150655918+11:00"
+    description: A Helm chart for deploying Stratos UI Console
+    digest: e5f3c0801bd32eae9d7b5412f88fc7caf645564f46f72530420f467b32f3013f
+    name: console
+    urls:
+    - console-2.6.1.tgz
+    version: 2.6.1
   sock-shop:
   - apiVersion: v1
-    created: "2020-02-07T21:13:16.148508242+11:00"
+    created: "2020-02-07T21:25:25.154851511+11:00"
     description: A Helm chart for Sock Shop
     digest: 6b1b563329320f903b27ead7c1f0ff841b115ea0509cb41fa67a829ef97fa3e3
     maintainers:
@@ -25,20 +35,10 @@ entries:
     urls:
     - sock-shop-0.2.0.tgz
     version: 0.2.0
-  stratos:
-  - apiVersion: v1
-    appVersion: 2.6.1
-    created: "2020-02-07T21:13:16.14919422+11:00"
-    description: A Helm chart for deploying Stratos UI Console
-    digest: 72d5e8fbc3cf0822aed373eeb024ac37d72e5eef4921f05bae93a5e5d0f3ba7d
-    name: stratos
-    urls:
-    - stratos-2.6.1.tgz
-    version: 2.6.1
   ubuntu:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-02-07T21:13:16.149609345+11:00"
+    created: "2020-02-07T21:25:25.155279616+11:00"
     description: A Helm chart for Ubuntu Base image
     digest: 30534b67a23fd1fa19f19b0378118869a3cbdb4cd8544655faa4c9be9a2eed31
     maintainers:
@@ -51,7 +51,7 @@ entries:
   wordpress:
   - apiVersion: v1
     appVersion: 5.3.2
-    created: "2020-02-07T21:13:16.152238156+11:00"
+    created: "2020-02-07T21:25:25.157810199+11:00"
     description: Web publishing platform for building blogs and websites.
     digest: 4cee16c2a08322b4d4251335ec94944477a81403bf117cb9d6c439b33945fe30
     engine: gotpl
@@ -74,4 +74,4 @@ entries:
     urls:
     - wordpress-8.1.2.tgz
     version: 8.1.2
-generated: "2020-02-07T21:13:16.140963922+11:00"
+generated: "2020-02-07T21:25:25.149537554+11:00"
